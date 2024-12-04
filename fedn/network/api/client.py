@@ -37,6 +37,7 @@ class APIClient:
 
         if token:
             self.headers = {"Authorization": f"{auth_scheme} {token}"}
+        print("FINN TESTING FORK AS DEPENDENCY")
 
     def _get_url(self, endpoint):
         if self.secure:
